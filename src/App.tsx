@@ -1,13 +1,14 @@
-import { BaseLayout } from "./layoutes"
+import { BaseLayout } from './layoutes'
+import Routes from '@/routes'
 
 type Props = {}
 
-function App({ }: Props) {
+function App({}: Props) {
   return (
     <BaseLayout>
-      <div>App</div>
+      <Routes />
     </BaseLayout>
   )
 }
 
-export default App;
+export default App
