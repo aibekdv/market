@@ -2,10 +2,8 @@ import React from 'react'
 
 type Props = {}
 
-const Home:React.FC = ({}: Props) => {
+export const HomePage:React.FC = ({}: Props) => {
   return (
-    <div>Home</div>
+    <div>HomePage</div>
   )
 }
-
-export default Home
